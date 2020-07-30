@@ -1,0 +1,143 @@
+
+.card-home{
+text-align: center;
+margin-bottom: 1%;
+background-color:white;
+margin-bottom: 1%;
+}
+body {
+    background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+}
+.social-menu{
+    margin-top: 20%;
+}
+.social-menu ul {
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li, .detail ul li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+
+
+
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover  {
+    color: #ffffff;
+}
+.contact-info-wrapper .fa:hover{
+    color: #ffffff;
+}
+
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color:aquamarine;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+.bold{
+    font-weight:bold;
+}
+.logo{
+    height:65px;
+    width: 65px;
+    margin-left: 60%;
+    margin-top:-21.4%;
+}
+.logot{
+    margin-top: 4%;
+    margin-left: -27%;
+    font-weight: bold;
+    font-family:courier;
+    color: rgb(112, 114, 218);
+    font-size: 35px;
+}
+.pillar p{
+margin-left: -10%;
+}
+
+
+.contact-info-wrapper {
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact-info-wrapper .contact-piller-button {
+    min-width: 80px;
+    width: 80px;
+    padding: 25px;
+    box-sizing: border-box;
+    color:black;
+    font-size: 18px;
+    position: relative;
+    display: block;
+    border-radius: 10%;
+    background-color: aquamarine;
+    text-align: center;
+    padding:4%;
+    margin: 0.5%;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.contact-piller-button {
+    background-color: aquamarine;
+    
+}
+
+.contact-info-wrapper .contact-info {
+    padding-left: 16px;
+    text-align: left;
+ 
+}
+.swats{
+    margin-top: 10%;
+}
+
